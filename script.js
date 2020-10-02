@@ -18,6 +18,9 @@ const cards = ["card-1", "card-2", "card-3", "card-4", "card-5"];
 
 console.log(cards);
 
-cards.splise(1, 2);
-
+// const cardToRemove = "card-3";
+// const index = cards.indexOf(cardToRemove);
+// cards.splice(index, 1);
+// console.log(cards);
+cards.splice(2, 0, "card-10");
 console.log(cards);
